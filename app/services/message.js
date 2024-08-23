@@ -11,14 +11,5 @@ module.exports = {
     EMAIL_EXIST: (str) => `${str} email already exists!`,
     DELETED_SUCCESS: (str) => `${str} deleted successfully!`,
     NOT_DELETED: (str) => `${str} not deleted!`,
-    GET_DATA: (str) => `${str} has been got successfully!`,
-    LOGIN_SUCCESS: "You have logged in successfully!",
-    LOGIN_FAILED: "Your logged in failed. please try again!",
-    LOGOUT_SUCCESS: "You have logout successfully!",
-    LOGOUT_FAILED: "You have not logged out successfully!",
-    VALIDATION_NECESSARY: (str) => `${str} is required!`,
-    VALIDATION_ISARRAY: (str) => `${str} must be an array!`,
-    CHANGE_DATA: (str) => `${str} has been changed successfully!`,
-    CHANGE_DATA_FAILED: (str) => `${str} has not been changed successfully!`,
-    NOT_MATCH: (str) => `${str} does not match!`
+    GET_DATA: (str) => `${str} has been got successfully!`
 }
