@@ -8,7 +8,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 
-const db = require('./app/models')
+// const db = require('./app/models')
 // db.sequelize.sync()
 
 require('./app/routes/colleges.routes')(app)
