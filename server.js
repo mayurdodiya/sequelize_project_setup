@@ -11,7 +11,7 @@ dotenv.config();
 // const db = require('./app/models')
 // db.sequelize.sync()
 
-require('./app/routes/colleges.routes')(app)
+// require('./app/routes/colleges.routes')(app)
 
 app.get('/', function (req, res) {
     res.send('Hello World')
