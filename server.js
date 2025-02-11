@@ -14,7 +14,8 @@ dotenv.config();
 // require('./app/routes/colleges.routes')(app)
 
 app.get('/', function (req, res) {
-    res.send('Hello World')
+    res.send('Hello World');
+    consle.log('Hello World');
 })
 
 // catching 404 error and forward to error handler
